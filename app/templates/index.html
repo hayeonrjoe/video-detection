@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex flex-column mb-3">
+    <div class="p-2">
+        <p class="h1">Video Detector</p>
+    </div>
+    <div class="p-2">
+        <p>Welcome to Video Detector! This website helps you determine whether a given URL contains videos. Simply enter the URL in the input field below and press the "Detect" button. The detector will analyze the content, print the result in the console and terminal, and then redirect you to the results page.</p>
+        <form action="{{ url_for('detect') }}" method="post">
+            <div class="input-group mb-3">
+                <label for="url"></label>
+                <input type="text" id="url" name="url" required class="form-control" placeholder="Enter URL:"
+                    aria-label="Enter URL:" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Detect</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
