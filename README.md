@@ -31,7 +31,7 @@ Flask와 Python을 활용하여 주어진 URL에서 동영상의 존재 여부�
 2024.01.16-01.21 <br>
 <h3 id="폴더-구조">▹ 폴더 구조</h3>
 <pre>
-📦web_accelerator
+📦video_detection
  ┣ 📂app
  ┃ ┣ 📂templates
  ┃ ┃ ┣ 📜base.html
