@@ -15,7 +15,6 @@
     <li><a href="#동영상-감지">동영상 감지</a></li>
    </ul>
    <li><a href="#시작하기">시작하기</a></li>
-   <li><a href="#바로가기">바로가기</a></li>
 </ol>
 
 <h2 id="프로젝트-소개">🔴 프로젝트 소개</h2>
@@ -92,6 +91,3 @@ Flask와 Python을 활용하여 주어진 URL에서 동영상의 존재 여부�
  python app.py
  
 </pre>
-
-<h2 id="바로가기">🔗 바로가기</h2>
-<a href="https://hayeonrjoe.github.io/">배포 링크</a>
